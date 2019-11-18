@@ -1,0 +1,53 @@
+.voltarFormulario button{
+	font-size: 20px;
+	color:black;
+	height: 30px;
+	width: 400px;
+	border-radius: 30px;
+	margin:5px 0px 5px 0px;
+  	padding: 5px 5px;
+	background-color:  rgba(32, 124, 67, 0.5);
+	justify-content: left;
+	text-align: center;
+	
+
+}
+
+.tabelaLista {
+	font-size: 20px;
+	text-align: center;
+
+}
+
+.linhasDados  td:not(#deleteCabecalho):not(#deleteRow){
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	color:black;
+}
+
+.cabecalhoTable td:not(#deleteCabecalho):not(#deleteRow){
+	border-bottom: 1px solid black;
+	border-right: 1px solid black;
+	border-top: 1px solid black;
+	font-weight: bold;
+	height: 50px;
+}
+
+#deleteRow{
+
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	color: red;
+}
+#deleteCabecalho{
+
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	border-top: 1px solid black;
+	color: red;
+}
+a{
+	text-decoration:none; 
+	color: red;
+}
+
